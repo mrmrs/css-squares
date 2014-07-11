@@ -29,7 +29,7 @@ or download the css on github and include in your project.
 .sq8 { width: 64rem; height: 64rem; }
 .sq9 { width: 96rem; height: 96rem; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .sq1-ns { width: 1rem;  height: 1rem; }
   .sq2-ns { width: 2rem;  height: 2rem; }
   .sq3-ns { width: 4rem;  height: 4rem; }
@@ -41,7 +41,7 @@ or download the css on github and include in your project.
   .sq9-ns { width: 96rem; height: 96rem; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .sq1-m { width: 1rem;  height: 1rem; }
   .sq2-m { width: 2rem;  height: 2rem; }
   .sq3-m { width: 4rem;  height: 4rem; }
@@ -53,7 +53,7 @@ or download the css on github and include in your project.
   .sq9-m { width: 96rem; height: 96rem; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .sq1-l { width: 1rem;  height: 1rem; }
   .sq2-l { width: 2rem;  height: 2rem; }
   .sq3-l { width: 4rem;  height: 4rem; }
