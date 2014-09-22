@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-squares)
 ## File Size
 
 1.6K squares.css
-1.2K squares.min.css
+1.2K squares.min.css 
+257B minified and gzipped
 
 ## The Code
 ```
