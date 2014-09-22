@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-squares
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-squares)
+
 
 ## File Size
 
+1.6K squares.css
+1.2K squares.min.css
 
 ## The Code
 ```
