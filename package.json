@@ -1,7 +1,7 @@
 {
   "name": "css-squares",
   "style": "squares.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-squares",
   "description": "Css module of single purpose classes for squares",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-squares.css > css/css-squares.css && tachyons src/css-squares.css --minify > css/css-squares.min.css && tachyons src/css-squares.css --generate-docs --package=../../package.json > readme.md"
